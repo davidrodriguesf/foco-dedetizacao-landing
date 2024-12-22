@@ -5,7 +5,11 @@ export const Header = () => {
   return (
     <header className="fixed top-0 left-0 right-0 bg-primary z-50 shadow-lg">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
-        <div className="text-white font-bold text-xl">Foco Dedetizadora</div>
+        <img 
+          src="/lovable-uploads/217106dd-d6a2-4b06-a5bc-419c1e66cd23.png" 
+          alt="Foco Dedetizadora Logo" 
+          className="h-10 w-auto"
+        />
         <div className="flex items-center gap-4">
           <a href="tel:3112345678" className="hidden md:flex items-center gap-2 text-white hover:text-secondary transition-colors">
             <Phone size={20} />
