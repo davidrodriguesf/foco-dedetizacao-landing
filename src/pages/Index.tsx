@@ -3,6 +3,7 @@ import { Hero } from "@/components/Hero";
 import { Ratings } from "@/components/Ratings";
 import { Services } from "@/components/Services";
 import { Guarantee } from "@/components/Guarantee";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -14,6 +15,7 @@ const Index = () => {
         <Services />
         <Guarantee />
       </main>
+      <Footer />
     </div>
   );
 };
