@@ -6,7 +6,7 @@ export const Hero = () => {
     <section className="relative min-h-[80vh] flex items-center">
       {/* Background image with overlay */}
       <div 
-        className="absolute inset-0 bg-[url('/technician.jpg')] bg-cover bg-center"
+        className="absolute inset-0 bg-[url('/lovable-uploads/fa9f2865-d5bd-42df-8a4d-55b30f2e11ff.png')] bg-cover bg-center"
         aria-hidden="true"
       >
         <div className="absolute inset-0 bg-black/50" />
